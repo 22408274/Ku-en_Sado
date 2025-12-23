@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mash Sozen — Baho</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-link">
+      <img src="image_logo/Logo1.png" alt="Mash Sozen" class="header-logo">
+    </a>
+
+    <div class="header-text">
+      <h1>🎵 Mash Sozen</h1>
+      <nav>
+        <a href="index.html">Asosê sahifa</a> |
+        <a href="features.html">Imkůniyat</a> |
+        <a href="songs.html">Sozen</a> |
+        <a href="feedback.html">Baho nêδd</a>
+      </nav>
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </div>
+  </div>
+</header>
+
+<div class="box feedback-box">
+  <h2>Baho nêδ Mash Sozen-ard</h2>
+  <button onclick="adminLogin()"
+  style="opacity:0.2;font-size:12px;margin-top:10px;">
+  Admin
+</button>
+  <p class="feedback-subtitle">
+    Tu fikreen mašard yordamen tar pêro tido🎶
+  </p>
+
+  <div id="stars" class="stars">
+    <span data-value="1">★</span>
+    <span data-value="2">★</span>
+    <span data-value="3">★</span>
+    <span data-value="4">★</span>
+    <span data-value="5">★</span>
+  </div>
+
+  <textarea id="comment" placeholder="Niviš xu fikrê..." rows="4"></textarea>
+
+  <button id="send-review" class="btn feedback-btn">
+    Xu fikrê bozum
+  </button>
+</div>
+
+<div class="box reviews-box">
+  <h2>Fikreen</h2>
+  <div id="reviews"></div>
+  <button id="clear-reviews" class="btn clear-btn">
+  Fikreen toza čido
+</button>
+
+</div>
+
+
+<footer>
+  <p>© 2025 Mash Sozen</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="feedback.js"></script>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+  import { getFirestore } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyD31k3q0Lk9w-0H-93OD1iDoAB9NaTmDLE",
+    authDomain: "mash-sozen.firebaseapp.com",
+    projectId: "mash-sozen",
+    storageBucket: "mash-sozen.firebasestorage.app",
+    messagingSenderId: "381991423678",
+    appId: "1:381991423678:web:8372c23abe750d9c8a58ef"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  window.db = getFirestore(app);
+</script>
+
+<script type="module" src="feedback.js"></script>
+</body>
+</html>

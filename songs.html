@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Title -->
+  <title>Mash Sozen - Sozen</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2e7d32">
+
+  <!-- iOS PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Mash Sozen">
+  <link rel="apple-touch-icon" href="image_logo/Logo1.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-link">
+      <img src="image_logo/Logo1.png" alt="Mash Sozen" class="header-logo">     
+    </a>
+
+    <div class="header-text">
+      <h1>🎵 Mash Sozen</h1>
+      <nav>
+        <a href="index.html">Asosê sahifa</a> |
+        <a href="features.html">Imkůniyat</a> |
+        <a href="songs.html" class="active">Sozen</a> |
+        <a href="feedback.html">Baho nêδd</a>
+      </nav>
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <aside class="song-list fade-in">
+    <h2>Sozen nůmen</h2>
+    <div class="search-box">
+  <span class="search-icon">🔍</span>
+  <input
+    type="text"
+    id="song-search"
+    placeholder="Soz ẋikido..."
+  >
+</div>
+    <ul id="song-list"></ul>
+  </aside>
+
+  <section class="song-content fade-in">
+    <button id="fullscreen-btn" class="btn fullscreen-btn">
+  ⛶ Polni ekran
+</button>
+    <h2 id="song-title"></h2>
+    <p id="song-author"></p>
+    <div class="box audio-box">
+  <audio id="audio-player" controls>
+    <source src="" type="audio/mpeg">
+    Tu brauzer dam navarδed čiẋto.
+  </audio>
+</div>
+    <div class="song-boxes">
+      <div class="box">
+        <h3>Tekst</h3>
+        <pre id="song-lyrics"></pre>
+      </div>
+      <div class="box">
+        <h3>Akkorden</h3>
+        <div id="song-chords" class="chords"></div>
+      </div>
+    </div>
+    <div class="box">
+      <h3>Tarzi niwêzdo</h3>
+      <div id="song-strumming" class="strumming"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Mash Sozen</p>
+</footer>
+
+<script src="songs.js"></script>
+<script src="script.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+</body>
+</html>
