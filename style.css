@@ -1130,6 +1130,15 @@ body.fullscreen-mode #song-lyrics {
   }
 
 }
+/* Mobile: smaller lyrics font for better chord alignment */
+@media (max-width: 768px) {
+
+  .lyrics {
+    font-size: 12.5px;      /* было 14–16 */
+    line-height: 1.35;
+  }
+
+}
 
 
 
