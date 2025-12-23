@@ -1099,6 +1099,37 @@ body.fullscreen-mode #song-lyrics {
     transform: none;
   }
 }
+.lyrics {
+  width: 100%;
+  max-width: 100%;
+}
+.lyrics {
+  white-space: pre;
+  overflow-x: auto;
+}
+@media (max-width: 768px) {
+  .lyrics {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+/* Mobile fix: widen lyrics to align chords */
+@media (max-width: 768px) {
+
+  .song-content {
+    padding: 12px;
+  }
+
+  .lyrics {
+    width: 100%;
+    max-width: 100%;
+    white-space: pre;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+}
 
 
 
