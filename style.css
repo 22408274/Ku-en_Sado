@@ -184,7 +184,7 @@ main {
   border-radius: 8px;
   box-sizing: border-box;
   line-height: 1.8;
-  font-size: clamp(14px, 1.2vw, 18px);
+  font-size: clamp(14px, 1.2vw, 8px);
 }
 
 /* Текст песни */
