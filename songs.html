@@ -58,7 +58,7 @@
     placeholder="Soz ẋikido..."
   >
 </div>
-    <ul id="song-list"></ul>
+    <div id="song-list"></div>
   </aside>
 
   <section class="song-content fade-in">
@@ -89,8 +89,7 @@
       <div id="song-strumming" class="strumming"></div>
     </div>
   <!-- 🔽 ТЕКСТ ПЕСНИ -->
-  <pre id="song-lyrics"></pre>
-</div>
+  
 
   </section>
 </main>
@@ -100,10 +99,29 @@
 </footer>
 
 <script src="songs.js"></script>
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
 <script>
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
+}
+</script>
+<script>
+const themeBtn = document.getElementById("theme-toggle");
+
+if (themeBtn) {
+  // применяем сохранённую тему
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+    themeBtn.textContent = "☀️";
+  }
+
+  themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    const isDark = document.body.classList.contains("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+    themeBtn.textContent = isDark ? "☀️" : "🌙";
+  });
 }
 </script>
 </body>

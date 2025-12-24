@@ -474,8 +474,195 @@ Išq canavid tund, qinaϑ xu makin
       G           Am
 Canažiwjat, bezor xu mak `,
     strumming: "D U B D U"
+  },
+  {
+    title: "Čirdta čoren",
+    author: "Sashi Zaifi",
+    audio: "audio/Chirdta_choren.mp3",
+    chords: "C G Am F", 
+    lyrics: `
+Ar yenakard xu kallāyum
+Ajab bamazā ɣiδayum
+Čirdta čoren maδ ɣacen, ku lo?
+
+Zindagê farq az fuk sůgen
+Čordor, siyo cem-virůɣ̌en
+Čirdta čoren maδ ɣacen, ku lo?
+
+Ilavê molê dunyo yod
+Ɣulůmê xurd čidům šo yod
+Čay bowar kiẋt, wam diland iku?
+
+Manoyê ikdizga koren
+Yanê xubaϑta xurd čoren
+Čirdta čoren maδ ɣacen, ku lo?
+
+Zindagê farq az fuk sůgen
+Čordor, siyo cem-virůɣ̌en
+Čirdta čoren maδ ɣacen, ku lo?
+
+At yuyo az sinfê čorand
+Gul wamard ẋikirt bozorand
+Δid xu jůn mis — nalakiẋt pê xu
+
+At vidoyê wam we rafiq vud
+Důnjat bozorê xarid čid
+Čirdta čoren maδ ɣacen, ku lo?
+
+Dunyotê išq dê diruɣ sut
+Disaϑ daryo tirinê buɣ sut
+Pas buzurgê murd divest iwu
+
+Satul ika daf sado pas
+Bemanê Mawlo niko pas
+Čirdta čoren maδ ɣacen, ku lo?`,
+    strumming: "D D U U U D D U"
   }
 ];
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const songListEl = document.getElementById("song-list");
+  const searchInput = document.getElementById("song-search");
+
+  function groupByArtist(songs) {
+    return songs.reduce((acc, song) => {
+      if (!acc[song.author]) acc[song.author] = [];
+      acc[song.author].push(song);
+      return acc;
+    }, {});
+  }
+
+  function renderSongList(filter = "") {
+    songListEl.innerHTML = "";
+
+    const grouped = groupByArtist(songs);
+    const search = filter.toLowerCase();
+
+    Object.entries(grouped).forEach(([artist, artistSongs]) => {
+      const filteredSongs = artistSongs.filter(song =>
+        song.title.toLowerCase().includes(search)
+      );
+
+      if (filteredSongs.length === 0) return;
+
+      const artistBlock = document.createElement("div");
+      artistBlock.className = "artist-block";
+
+      const artistName = document.createElement("div");
+      artistName.className = "artist-name";
+      artistName.textContent = artist;
+
+      const songUl = document.createElement("ul");
+      songUl.className = "artist-songs";
+
+      artistName.addEventListener("click", () => {
+        songUl.style.display =
+          songUl.style.display === "none" ? "block" : "none";
+      });
+
+      filteredSongs.forEach(song => {
+        const li = document.createElement("li");
+        li.textContent = song.title;
+
+        li.addEventListener("click", () => {
+          loadSong(song);
+        });
+
+        songUl.appendChild(li);
+      });
+
+      artistBlock.appendChild(artistName);
+      artistBlock.appendChild(songUl);
+      songListEl.appendChild(artistBlock);
+    });
+  }
+
+  searchInput.addEventListener("input", e => {
+    renderSongList(e.target.value);
+  });
+
+  renderSongList();
+
+});
+function loadSong(song) {
+  document.getElementById("song-title").textContent = song.title;
+  document.getElementById("song-author").textContent = "Shoir: " + song.author;
+
+  document.getElementById("song-lyrics").innerHTML =
+    highlightChords(song.lyrics.trim());
+
+  renderChords(song.chords);
+  renderStrumming(song.strumming);
+
+  const audio = document.getElementById("audio-player");
+  if (song.audio && audio) {
+    audio.src = song.audio;
+    audio.load();
+  }
+}
+
+function renderChords(chordsText) {
+  const chordsDiv = document.getElementById("song-chords");
+  chordsDiv.innerHTML = "";
+
+  chordsText.split(" ").forEach(chord => {
+    chordsDiv.innerHTML += `
+      <div class="chord-img">
+        <img src="chords/${chord}.jpg" alt="${chord}">
+        <span>${chord}</span>
+      </div>
+    `;
+  });
+}
+
+function renderStrumming(strummingText) {
+  const container = document.getElementById("song-strumming");
+  container.innerHTML = "";
+
+  if (!strummingText) return;
+
+  strummingText.split(" ").forEach(step => {
+    const span = document.createElement("span");
+    let symbol = "";
+    let explanation = "";
+
+    if (step === "D") {
+      symbol = "⬇";
+      explanation = "Ar bir";
+      span.className = "down";
+    } else if (step === "U") {
+      symbol = "⬆";
+      explanation = "Pê tir";
+      span.className = "up";
+    } else if (step === "B") {
+      symbol = "⬇";
+      explanation = "Ciqast";
+      span.className = "bass";
+    }
+
+    span.innerHTML = `
+      <div class="symbol">${symbol}</div>
+      <div class="explanation">${explanation}</div>
+    `;
+    container.appendChild(span);
+  });
+}
+
+function highlightChords(text) {
+  const chordRegex = /\b([A-G](?:#|b)?m?(?:7|maj7|sus2|sus4)?)\b/g;
+
+  return text
+    .split("\n")
+    .map(line => {
+      const isChordLine = /^[\sA-G#bm0-9maj7sus]+$/.test(line.trim());
+      if (isChordLine) {
+        return line.replace(chordRegex, '<span class="chord">$1</span>');
+      }
+      return line;
+    })
+    .join("\n");
+}
 
 
   

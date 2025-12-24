@@ -1245,6 +1245,122 @@ body.fullscreen-mode #song-lyrics {
   border: 1px solid #ccc;
   font-size: 16px;
 }
+/* ===== Artist blocks (left panel) ===== */
+
+.artist-block {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* имя исполнителя */
+.artist-name {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #2e7d32, #43a047);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* стрелка справа */
+.artist-name::after {
+  content: "▾";
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* список песен */
+.artist-songs {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0 4px;
+}
+
+.artist-songs li {
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.artist-songs li:hover {
+  background: #f0f4f1;
+}
+
+/* ===== Mobile tweaks ===== */
+@media (max-width: 768px) {
+  .artist-name {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  .artist-songs li {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+/* ===== DARK MODE – Songs page ===== */
+
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+/* левая колонка */
+body.dark .sidebar,
+body.dark .left-panel {
+  background: #181818;
+}
+
+/* блок исполнителя */
+body.dark .artist-block {
+  background: #1f1f1f;
+  box-shadow: none;
+}
+
+/* имя исполнителя */
+body.dark .artist-name {
+  background: linear-gradient(90deg, #1b5e20, #2e7d32);
+  color: #e8f5e9;
+}
+
+/* список песен */
+body.dark .artist-songs li {
+  color: #ddd;
+}
+
+body.dark .artist-songs li:hover {
+  background: #2a2a2a;
+}
+
+/* текст песни */
+body.dark #song-lyrics {
+  color: #e0e0e0;
+}
+
+/* аккорды */
+body.dark .chord {
+  color: #81c784;
+}
+
+/* блоки справа */
+body.dark .box {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+/* плеер */
+body.dark audio {
+  filter: invert(1) hue-rotate(180deg);
+}
 
 
 
