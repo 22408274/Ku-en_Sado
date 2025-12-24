@@ -619,6 +619,106 @@ Yo Aliye
 Em
 Yo Aliye `,
     strumming: "D U B D U"
+  },
+  {
+    title: "Yůmj sanam",
+    author: "Anis Chorshanbiev",
+    audio: "audio/Yomj_sanam.mp3",
+    chords: "Am G F E", 
+    lyrics: `
+Am                  G
+Mestand wam rux ar tu dargo
+        F               E
+Ku nighūgh tu mu nolao, ay bewafo
+Am                     G
+Uz ar tu dargo tu tuth bunando 
+        F              E
+Tu kud mu amro, ku naxhte tu
+
+• PRIPEV
+ Am           
+Yůmj boɣenardta δām qadam
+        G   
+Boɣ-tar-boɣta ẋikarum wam
+      F
+Go pê čaẋmā niϑum pê wam
+        E
+Lakin yakbor winum wam
+• 
+Am                G
+Ay Yůmj sanam, tu qinê mu
+      F             E
+Dê xu nozandta zinê mu
+Am                G
+Az xu išqta dilgirê mu
+          F          E
+Badê cůnd solta pirê mu
+
+• PRIPEV
+ Am
+Yůmj boɣenardta δām qadam
+        G
+Boɣ-tar-boɣta ẋikarum wam
+      F
+Go pê čaẋmā niϑum pê wam
+        E
+Lakin yakbor winum wam
+•
+Am                  G
+Az Xuδoyjůn mund yê armůn
+   F                 E
+Yo Xuδoyjůn, tu čis mu jůn
+ Am            G
+Ar tu awlêyum sargarδůn
+          F            E
+Lům turd xu soz at mam muqům
+
+• PRIPEV
+ Am
+Yůmj boɣenardta δām qadam
+        G
+Boɣ-tar-boɣta ẋikarum wam
+      F
+Go pê čaẋmā niϑum pê wam
+        E
+Lakin yakbor winum wam `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Arůd nist zindagê",
+    author: "Alim Elnazarov",
+    audio: "audio/Arod_nist_zindage.mp3",
+    chords: "Am G F E", 
+    lyrics: `
+  Am                         G 
+Wāδta murd lůven tê, saylê mam jaůn
+                       F
+Arůd nist zindagê armê biyabůn
+                      E
+Dê xu yošê maϑêw ar mê kuistůn 
+• 
+ Am                   G
+Wāδ nāla tut doimaϑ ruaftoda
+                           F
+Tund tu dil ar qafas, ārang parandā
+                       E
+Arjoyaϑ tu winam, tund tu dil xafā
+• 
+  Am                           G
+Tut mu xezand dê vad, tuyaϑat murd bas
+                            F
+Ɣayrê tu, tar ičizga mund nist awas
+                               E
+Lāk tam mu dil mis ment doim ar qafas 
+•
+  Am                     G
+Arůd mu zindagê, arůd mu xušê
+                           F
+Arůd mu qismat at mu yor at umrê
+                        E
+Ɣayrê Pomir nist joydodê bidê
+    `,
+    strumming: "D D U U D U"
   }
 ];
 

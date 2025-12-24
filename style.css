@@ -1411,6 +1411,35 @@ body.dark audio {
 .fake-fullscreen #song-strumming .symbol {
   font-size: 48px;
 }
+/* ===== Telegram Button ===== */
+.tg-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #43a047;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.tg-btn:hover {
+  background: #5dad20;
+  transform: translateY(-1px);
+}
+
+.tg-btn:active {
+  transform: translateY(0);
+}
+
+/* тёмная тема */
+body.dark .tg-btn {
+  background: #1f8bc2;
+}
 
 
 
