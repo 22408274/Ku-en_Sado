@@ -564,6 +564,61 @@ Girsa, waxt yastê ɣal
 Ganda ošiq, kalta saglag
 Ɣula beparwoyum uz `,
     strumming: "D D U U D U"
+  },
+  {
+    title: "Oxhnoyê sar nazdik at sar δar",
+    author: "Sashi Zaifi",
+    audio: "audio/Oxhnoe_sar_nazdik.mp3",
+    chords: "Em D Am C F G", 
+    lyrics: ` 
+Em                   D
+Nurat, amo čirum, uz ošiqum
+Am           C         Em
+Xokum agar, xokum, bar sar Ali
+                        D
+Čirum pê dunyo, ku lo, uz bedilum
+Am              C    Em
+Ay, dilê duzdidayu, dilbar — Ali
+• PRIPEV
+Am      F       G                   Em
+Ay, oẋnoyê sarê nazdik at sar δar — Ali
+Am
+Yo Aliye
+Em
+Yo Aliye
+•
+Em                  D
+O, suxê silmůn, tu mêrê yu wint
+Am      C          Em
+Woy bar olê, dilê Xaybar — Ali
+Em                    D
+Dinê Muammad aga peδo cačud
+Am      C          Em
+Roê sofoê — we payumbar Ali
+• PRIPEV
+Am      F       G                   Em
+Ay, oẋnoyê sarê nazdik at sar δar — Ali
+Am
+Yo Aliye
+Em
+Yo Aliye
+•
+Em                D
+Uz ba umeδê tuta yakruz yadê
+Am       C              Em
+Joyum turd čuɣ̌j yê-thu gawar, Ali
+Em                   D
+Tamê Izroil aga vud turd mu jůn
+Am           C          Em
+Ya xu, zê az xoktê mu daftar, Ali
+• PRIPEV
+Am      F       G                   Em
+Ay, oẋnoyê sarê nazdik at sar δar — Ali
+Am
+Yo Aliye
+Em
+Yo Aliye `,
+    strumming: "D U B D U"
   }
 ];
 
