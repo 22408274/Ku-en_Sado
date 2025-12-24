@@ -1381,6 +1381,36 @@ body.dark audio {
 .songs-layout.single .song-content {
   display: none;
 }
+/* ====== FULLSCREEN MODE ====== */
+.fake-fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--bg, #fff);
+  overflow-y: auto;
+  padding: 16px;
+}
+
+/* скрываем всё лишнее */
+.fake-fullscreen header,
+.fake-fullscreen footer,
+.fake-fullscreen aside {
+  display: none !important;
+}
+
+/* бой всегда виден */
+.fake-fullscreen #song-strumming {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* увеличим стрелки */
+.fake-fullscreen #song-strumming .symbol {
+  font-size: 48px;
+}
 
 
 

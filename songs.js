@@ -780,6 +780,20 @@ function highlightChords(text) {
     })
     .join("\n");
 }
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("fullscreen-btn");
+  const songContent = document.getElementById("songContent");
+
+  if (!btn || !songContent) return;
+
+  btn.addEventListener("click", () => {
+    songContent.classList.toggle("fake-fullscreen");
+
+    btn.textContent = songContent.classList.contains("fake-fullscreen")
+      ? "❌ Naẋtido"
+      : "⛶ Polni ekran";
+  });
+});
 
 
   
