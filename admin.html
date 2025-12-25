@@ -10,12 +10,18 @@
 
 <h1>🛠 Admin Panel</h1>
 
-<button id="logoutBtn">🚪 Logout</button>
+<button id="logoutBtn">🚪 Naẋtido</button>
 
-<div id="admin-reviews"></div>
+<button id="delete-selected" class="btn danger" style="display:none;">
+  🗑 Udalit vibrannie
+</button>
+<button id="select-all" class="btn">
+  ☑ Fukaϑ vibor čido
+</button>
 
-<script src="feedback.js"></script>
-<script src="admin.js"></script>
+
+<div id="reviews"></div>
+
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
   import { getFirestore } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
@@ -34,5 +40,6 @@
 </script>
 
 <script type="module" src="admin.js"></script>
+
 </body>
 </html>

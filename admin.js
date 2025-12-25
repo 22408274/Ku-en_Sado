@@ -1,49 +1,82 @@
 import {
   collection,
-  getDocs
+  getDocs,
+  deleteDoc,
+  doc
 } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
 
-if (localStorage.getItem("isAdmin") !== "true") {
+const isAdmin = localStorage.getItem("isAdmin") === "true";
+if (!isAdmin) {
   alert("Access denied");
-  location.href = "index.html";
+  location.href = "feedback.html";
 }
 
-const logoutBtn = document.getElementById("logoutBtn");
-if (logoutBtn) {
-  logoutBtn.onclick = () => {
-    localStorage.removeItem("isAdmin");
-    location.href = "index.html";
-  };
-}
+async function renderReviews() {
+  const snapshot = await getDocs(collection(db, "reviews"));
+  const reviewsDiv = document.getElementById("reviews");
+  reviewsDiv.innerHTML = "";
 
-const container = document.getElementById("admin-reviews");
-
-async function loadReviews() {
-  container.innerHTML = "<p>Loading reviews...</p>";
-
-  const snapshot = await getDocs(collection(window.db, "reviews"));
-
-  if (snapshot.empty) {
-    container.innerHTML = "<p>No reviews yet</p>";
-    return;
-  }
-
-  container.innerHTML = "";
-
-  snapshot.forEach(doc => {
-    const r = doc.data();
+  snapshot.forEach(docSnap => {
+    const r = docSnap.data();
 
     const div = document.createElement("div");
     div.className = "review";
 
     div.innerHTML = `
-      <p><strong>${r.name || "Anonim"}</strong></p>
-      <p>⭐ Rating: ${r.rating}</p>
-      <p>${r.text}</p>
+      <input type="checkbox" class="review-check" data-id="${docSnap.id}">
+      <b>${r.name}</b><br>
+      ⭐ ${r.rating}<br>
+      ${r.text}
     `;
 
-    container.appendChild(div);
+    reviewsDiv.appendChild(div);
   });
+
+  document.getElementById("delete-selected").style.display = "inline-block";
 }
 
-loadReviews();
+document.getElementById("delete-selected").onclick = async () => {
+  const checked = document.querySelectorAll(".review-check:checked");
+
+  if (checked.length === 0) {
+    alert("IchizaIčizaϑat vibor načuj.");
+    return;
+  }
+
+  if (!confirm(`Udalit ${checked.length} отзыв(-en)?`)) return;
+
+  for (const cb of checked) {
+    await deleteDoc(doc(db, "reviews", cb.dataset.id));
+  }
+
+  renderReviews();
+};
+
+renderReviews();
+
+const logoutBtn = document.getElementById("logoutBtn");
+
+if (logoutBtn) {
+  logoutBtn.onclick = () => {
+    localStorage.removeItem("isAdmin");
+    alert("Naẋtêyê az admin režimo?");
+    location.href = "feedback.html"; 
+  };
+}
+const selectAllBtn = document.getElementById("select-all");
+
+if (selectAllBtn) {
+  selectAllBtn.onclick = () => {
+    const checkboxes = document.querySelectorAll(".review-check");
+
+    const allChecked = [...checkboxes].every(cb => cb.checked);
+
+    checkboxes.forEach(cb => {
+      cb.checked = !allChecked;
+    });
+
+    selectAllBtn.textContent = allChecked
+      ? "☑ Fukaϑ vibor čido"
+      : "☐ Videlenien δar čido ";
+  };
+}
