@@ -3,13 +3,11 @@ import {
   getDocs
 } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
 
-// 🔐 защита
 if (localStorage.getItem("isAdmin") !== "true") {
   alert("Access denied");
   location.href = "index.html";
 }
 
-// 🚪 logout (если кнопка есть)
 const logoutBtn = document.getElementById("logoutBtn");
 if (logoutBtn) {
   logoutBtn.onclick = () => {
@@ -20,7 +18,6 @@ if (logoutBtn) {
 
 const container = document.getElementById("admin-reviews");
 
-// 📥 загрузка отзывов из Firebase
 async function loadReviews() {
   container.innerHTML = "<p>Loading reviews...</p>";
 

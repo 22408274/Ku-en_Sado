@@ -1,4 +1,4 @@
-const ADMIN_PASSWORD = "DODI@2006"; // можешь сменить
+const ADMIN_PASSWORD = "DODI@2006"; // VARTHIM BEDAL CHID
 import {
   collection,
   addDoc,
@@ -68,7 +68,6 @@ document.getElementById("comment").value = "";
     });
   });
 
-  // сортировка по рейтингу (5 → 1)
   list.sort((a, b) => b.rating - a.rating);
 
   list.forEach(r => {
@@ -85,7 +84,6 @@ document.getElementById("comment").value = "";
   });
 }
 
-// ⬇ ВЫЗОВ ОДИН, ВНЕ ФУНКЦИЙ
 renderReviews();
 
 
@@ -119,10 +117,10 @@ const adminLink = document.getElementById("admin-link");
 function adminLogin() {
   const password = prompt("Admin parol");
 
-  if (password === "DODI@2006") { // ← твой пароль
+  if (password === "DODI@2006") { // ← MU PAROL
     localStorage.setItem("isAdmin", "true");
     alert("Admin rezhim");
-    location.reload(); // ⬅️ ОЧЕНЬ ВАЖНО
+    location.reload(); 
   } else {
     alert("Parol ghalat");
   }

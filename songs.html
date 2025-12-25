@@ -3,28 +3,22 @@
 <head>
   <meta charset="UTF-8">
 
-  <!-- Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- Title -->
   <title>Mash Sozen - Sozen</title>
 
-  <!-- PWA -->
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#2e7d32">
 
-  <!-- iOS PWA -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Mash Sozen">
   <link rel="apple-touch-icon" href="image_logo/Logo1.png">
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -88,7 +82,6 @@
       <h3>Tarzi niwêzdo</h3>
       <div id="song-strumming" class="strumming"></div>
     </div>
-  <!-- 🔽 ТЕКСТ ПЕСНИ -->
   
 
   </section>
@@ -99,7 +92,6 @@
 </footer>
 
 <script src="songs.js"></script>
-<!-- <script src="script.js"></script> -->
 <script>
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
@@ -109,7 +101,6 @@ if ("serviceWorker" in navigator) {
 const themeBtn = document.getElementById("theme-toggle");
 
 if (themeBtn) {
-  // применяем сохранённую тему
   if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
     themeBtn.textContent = "☀️";

@@ -1,4 +1,3 @@
-// Список песен
 function renderSongList(filteredSongs = songs) {
   const list = document.getElementById("song-list");
   list.innerHTML = "";
@@ -11,7 +10,6 @@ function renderSongList(filteredSongs = songs) {
   });
 }
 
-// Аккорды (картинки)
 function renderChords(chordsText) {
   const chordsDiv = document.getElementById("song-chords");
   chordsDiv.innerHTML = "";
@@ -26,7 +24,6 @@ function renderChords(chordsText) {
   });
 }
 
-// Бой песни с большими стрелками и пояснениями под ними
 function renderStrumming(strummingText) {
   const container = document.getElementById("song-strumming");
   container.innerHTML = "";
@@ -74,7 +71,6 @@ function highlightChords(text) {
   return text
     .split("\n")
     .map(line => {
-      // если строка состоит в основном из пробелов и аккордов
       const isChordLine = /^[\sA-G#bm0-9maj7sus]+$/.test(line.trim());
 
       if (isChordLine) {
@@ -86,7 +82,6 @@ function highlightChords(text) {
     .join("\n");
 }
 
-// Показ песни
 function showSong(index) {
   const song = songs[index];
 
@@ -104,7 +99,6 @@ function showSong(index) {
   }
 }
 
-// Фильтр поиска
 function filterSongs() {
   const query = document.getElementById("song-search").value.toLowerCase();
   const filtered = songs.filter(song =>
@@ -114,7 +108,6 @@ function filterSongs() {
   renderSongList(filtered);
 }
 
-// Инициализация
 window.onload = () => {
   renderSongList();
   showSong(0);
@@ -124,9 +117,6 @@ window.onload = () => {
     searchInput.addEventListener("input", filterSongs);
   }
 };
-// ===========================
-// Авто-подсветка активной страницы
-// ===========================
 
 document.addEventListener("DOMContentLoaded", () => {
   const links = document.querySelectorAll("header nav a");
@@ -157,7 +147,6 @@ toggleBtn.addEventListener("click", () => {
     toggleBtn.textContent = "🌙";
   }
 });
-// ===== FULLSCREEN MODE =====
 const fsBtn = document.getElementById("fullscreen-btn");
 
 if (fsBtn) {
