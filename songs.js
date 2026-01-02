@@ -307,7 +307,7 @@ Mam xu soz at mam muqům
 Tuyat důnd(3×) tuyat důnd, 
 F             E
 Ar zamin at pê osmůn
-
+•
 Am
 Famum, qinat vad at šintat
                   Dm  
@@ -323,22 +323,26 @@ Nawintum wev ɣulla sid
 Ẋacat be ẋacêndě vudat
 F               E
 Δu gulat ɣulla tu čud
-
 • PRIPEV
-Tuyat důnd
+Am
+Tuyat důnd (3×)
 Mund mu jůn at mu jůnůnat
-
-Tuyat důnd
+ Dm            E
+Tuyat důnd(3×) tuyat důnd, 
 Ar zamin at pe osmůnat
+        Am
 Mund tu důnd
 
-Tuyat důnd
+Am
+Tuyat důnd (3×)
 Turdta důnd lům
+                 Dm
 Mam xu soz at mam muqům
-
-Tuyat důnd
+              E
+Tuyat důnd(3×) tuyat důnd, 
+F             E
 Ar zamin at pê osmůn
-
+•
 Am
 Famum, xir muɣunat, δar tu
                 Dm
@@ -362,12 +366,10 @@ Baɣer lůvam mašam wint
 Xu yošendêyaϑ dê famet
 F                E
 Důnjat ruz be išq natizd
-
-Tuyat důnd
-Mund mu jůn at mu jůnůnat
-
-Tuyat důnd
-Ar zamin at pe osmůn
+Dm
+Tuyat důnd(3×) tuyat důnd, 
+F             E
+Ar zamin at pê osmůn
     `,
   strumming: "D U B D U"
   },
@@ -910,6 +912,9 @@ Am               G         Am
 Na tut yoš at na uz šunzda solā
 Dm                      F          
 Judoyê sut nasib mašard az qismat
+3x
+G
+Awolā
     `,
     strumming: "D U U D U"
   },
@@ -1186,7 +1191,7 @@ Shichat az khu kor ẋemůn
 Am
 Shich tu dil suthj thu taqsim 
          
-Nafame chi kate vim
+Nafame chi qate vim
 F
 Tar tu dil půnd ça na verim 2X
 E
