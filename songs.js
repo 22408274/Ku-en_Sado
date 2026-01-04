@@ -1748,3 +1748,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+const footer = document.querySelector('.site-footer');
+
+if (footer) {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        footer.classList.add('show');
+      }
+    });
+  });
+
+  observer.observe(footer);
+}

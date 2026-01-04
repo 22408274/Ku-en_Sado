@@ -1557,4 +1557,60 @@ body.dark #song-strumming span.bass {
   background-color: #45a049;
 }
 
+footer a {
+  color: #2e7d32;
+  font-weight: 600;
+  text-decoration: none;
+}
 
+footer a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  background: linear-gradient(180deg, #1d4e1d, #557f55);
+  padding: 26px 10px;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 14px;
+  color: #eaffea;
+  font-weight: 600;
+}
+
+.footer-insta {
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #b6ffcc;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer-insta:hover {
+  color: #ffffff;
+}
+
+
+.site-footer {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.site-footer.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer-insta {
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.footer-insta:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+}
