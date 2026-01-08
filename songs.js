@@ -1486,6 +1486,42 @@ Suδjatum fukjoy qalandar
 Tůnecum tu naviruɣ̌jat
     `,
     strumming: "D U B D U "
+  },
+  {
+    title: "Jůnbicak",
+    author: "Boris Jurabekov",
+    audio: "audio/Jonbicak.mp3",
+    chords: "Am G F E", 
+    lyrics: 
+    `
+Am                               G
+Šič diga, ay jůnbicak, tuta ajga nawinum
+              F                   E
+Dev tu bašand gāpakenta uz ajga naẋinum
+Am                          G
+Čiz bedarak tu damtê žozum at qin xu kinum?
+ F                                   E
+Nawardum uz az tu famt, tut xurd vic molê mardum
+•
+Am                                  G
+Cůnd umeδ at cůnd awas, guyo uz mis ošiqum
+           F                    E
+Oxirin borgata nur tar dev tu cemen čisum
+Am                                 G
+Maš muabbat sut xatto, nasatam mot tu yakjo
+             F                      E
+Judoyê murd sut nasib, qismat qatê ku čirum?
+•
+Am                                 G
+Voga xušbaxtê az naw uz turd kinum orêzu
+              F                  E
+Lākê išq půndtê ačaϑ qinê māwin, a xušruy
+Am                             G
+Lapum žiwj tu čud, amo judoyê yat az pêro
+            F                     E
+Zindagê půndê ẋičuẋt maš išqê yod beparwo
+    `,
+    strumming: "D U B D U"
   }
 ];
 
