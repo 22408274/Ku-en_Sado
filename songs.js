@@ -1522,6 +1522,183 @@ Lapum žiwj tu čud, amo judoyê yat az pêro
 Zindagê půndê ẋičuẋt maš išqê yod beparwo
     `,
     strumming: "D U B D U"
+  },
+  {
+    title: "O mu xuδmen",
+    author: "Umed Ashrafbekov",
+    audio: "audio/O_mu_xuthmen.mp3",
+    chords: "Em C Am B7", 
+    lyrics: 
+    `
+Em    
+Az naw wintowat xuš murd yat
+ C
+Mu dilandat witêyaϑ nost
+Am
+Tu išqandum δewin uz sutat
+B7
+Fukum nafam čir uz čud
+•
+Em
+Arwaxt iga qatê tu winum
+C
+Xu cem biδembum, fikrê kinum
+Am
+Lům, šič yadê, mu δust anjavê
+B7
+Bādta lůvê ‘baxiẋ tu kê’
+•
+Em                               C
+O, mu xuδmen, yakbor senet mu pê osmůn
+       Am           B7
+O, abrêen, ku tozāet mu dil at jůn
+•
+Em
+Voyat tar půndat, tu igā qatê
+ C
+Az muta winê, nozta kinê
+Am
+Ostāyaϑ az wê xezandta tiyê
+B7
+Ostāyaϑta az mu tu qiwê
+•
+Em
+Širināϑta uz at tu šāndam
+ C
+Sarakêecta uz at tu niϑām
+Am
+Sarakêecta yakdigar gārm kinam
+B7
+Ya ẋab naɣ̌jid, tayor, diga begůnayam
+•
+Em                               C
+O, mu xuδmen, yakbor senet mu pê osmůn
+       Am           B7
+O, abrêen, ku tozāet mu dil at jůn
+     `,
+    strumming: "D B U U B U"
+  },
+  {
+    title: "Ruxshona",
+    author: "Temur Alifshoev",
+    audio: "audio/Ruxshona.mp3",
+    chords: "Em C D", 
+    lyrics: 
+    `
+Em
+Mardumta lůvd
+C
+Xušruy žiwj mak
+D            Em
+Wamand wafo nist 
+Em            C
+Xušruyta žiwj cakinê
+D           Em
+Yata pê tu narist 
+
+Em  C  D Em
+O-o-o, o Ruxšůna
+•
+Em     C
+Awalum načud bowar
+D           Em
+Lůdum dizga nist
+Em      C
+Ziboyum famt tut išqboz
+D            Em
+Tu išq doimê nist
+Em      C   
+Awalum az tu cawint
+D         Em
+Suttum uz ijrůn
+Em    C
+Az xu ošiqeyum amo
+D           Em
+Šič uz suδj ẋemůn
+
+Em  C  D Em
+O-o-o, o Ruxšůna
+•
+Em         C
+Tar tu šič uz cačisum
+D          Em
+Θawê, arangat mêst
+Em          C  
+Dê tu xušruyêyand amo
+D          Em
+Rostaϑ, wafo nist
+Em       C  D        Em 
+Tu xušruyê, rostaϑ, mu dil yod 
+Em       C   D       Em
+Tu bewafoyê amo gir mu δod 
+
+Em  C  D Em
+O-o-o, o Ruxšůna
+•
+Em        C
+Tut toyd, tuyat bed
+D          Em
+Nist az tu xabar
+Em       C
+Xu išqbozê qatêyat
+D      Em
+Čud mu darbadar 
+
+Em  C  D Em
+O-o-o, o Ruxšůna
+    `,
+    strumming: "D D U U D U"
+  },
+  {
+    title: "Nur az osmūn ar zamin yat",
+    author: "Munojot",
+    audio: "audio/Nur_az_osmon_ar_zamin_yat.mp3",
+    chords: "Bm Gm Em F", 
+    lyrics: 
+    `
+Bm
+Nur az osmūn ar zaminat
+Gm
+Odamenard amnixhinat
+Em
+Tut iko — nure iloye
+F
+Chu nixhūna az mu dinat
+•
+Bm
+Tut abad xu, mash cayastam
+Gm
+Girde tu fuk dast-ba-dastam
+Em
+Mash yagūna soibat xu
+F
+Az tu didor mast xu, mastam
+
+Gm    F       Bm
+Turd mawlude muborak
+•
+Bm
+Rost, mash zhiwjam tu bead
+Gm
+Tut Ali, tut az Muammad
+Em
+Lak azor yocand mu ϑêwen
+F
+At nagaxhchum az xu dinand
+•
+Bm
+Sire mam dunyo darak turd
+Gm
+Yam nur at fardo darak turd
+Em
+Chizta sūd dunyo mam oxir
+F
+Malum fukath yak-ba-yak turd
+
+Gm   F      Bm
+Turd mawlude muborak
+    `,
+    strumming: "D B U U B U"
   }
 ];
 
