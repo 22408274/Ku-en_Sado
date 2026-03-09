@@ -1653,7 +1653,7 @@ O-o-o, o Ruxšůna
     title: "Nur az osmūn ar zamin yat",
     author: "Munojot",
     audio: "audio/Nur_az_osmon_ar_zamin_yat.mp3",
-    chords: "Bm Gm Em F", 
+    chords: "Bm Gm Em Fmm", 
     lyrics: 
     `
 Bm
@@ -1662,7 +1662,7 @@ Gm
 Odamenard amnixhinat
 Em
 Tut iko — nure iloye
-F
+Fmm
 Chu nixhūna az mu dinat
 •
 Bm
@@ -1671,10 +1671,10 @@ Gm
 Girde tu fuk dast-ba-dastam
 Em
 Mash yagūna soibat xu
-F
+Fmm
 Az tu didor mast xu, mastam
 
-Gm    F       Bm
+Gm    Fmm      Bm
 Turd mawlude muborak
 •
 Bm
@@ -1683,7 +1683,7 @@ Gm
 Tut Ali, tut az Muammad
 Em
 Lak azor yocand mu ϑêwen
-F
+Fmm
 At nagaxhchum az xu dinand
 •
 Bm
@@ -1695,8 +1695,458 @@ Chizta sūd dunyo mam oxir
 F
 Malum fukath yak-ba-yak turd
 
-Gm   F      Bm
+Gm   Fmm      Bm
 Turd mawlude muborak
+    `,
+    strumming: "D B U U B U"
+  },
+  {
+    title: "Zhiwjum yo nay",
+    author: "Cover by Munir",
+    audio: "audio/Zhiwjum_yo_nay.mp3",
+    chords: "Am F G Em", 
+    lyrics: 
+    `
+PRIPEV
+Am
+Žiwjat yo nay
+F                 
+Sawêta qin to ba kay
+G                    Am
+Mirang δarindê tu nawinum
+
+Am
+Yoδê to кu nay
+F                 
+Fandta δaδê to ba kay
+G                     Am
+Mirang δarindê iss nakinum
+•
+Am
+Tuta lůvê fuk mund soz
+F
+Arruz lům turd xu dil roz
+G                       Em      Am
+Ammo nafam čizardat tu ostayaϑ ricost
+
+x2
+Am
+Tuta dil kinê qin
+F
+Ẋoj mu kinê šitaš tim
+G                      Em           Am
+Lůvê δarta δim az tuta bidê xurd verim
+•
+PRIPEV
+Am
+Žiwjat yo nay
+F                 
+Sawêta qin to ba kay
+G                    Am
+Mirang δarindê tu nawinum
+
+Am
+Yoδê to кu nay
+F                 
+Fandta δaδê to ba kay
+G                     Am
+Mirang δarindê iss nakinum
+•
+Am
+Bowar kê be tuyum qin
+F                     
+Ẋab ẋofcumat sam dilgir
+G                        Em            Am 
+Pis arruzaϑ ca čisum sam xaẋdê be tu qin
+
+x2
+Am
+At tu čisum ɣamaϑ nist
+F                       
+Lůvê  lak de dil piδist
+G                     Em          Am
+Žiwjgaẋ mot tu bayn, nomalumaϑta rist
+•
+PRIPEV
+Am
+Žiwjat yo nay
+F                 
+Sawêta qin to ba kay
+G                    Am
+Mirang δarindê tu nawinum
+
+Am
+Yoδê to кu nay
+F                 
+Fandta δaδê to ba kay
+G                     Am
+Mirang δarindê iss nakinum
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Arangaj",
+    author: "Munojot",
+    audio: "audio/Arangaj.mp3",
+    chords: "Am F Dm E", 
+    lyrics: 
+    `
+PRIPEV
+Am                 F    
+Arangaj purguno uz vim
+                   Dm
+Arangaj russêyo mis vim
+                       E
+Arcůnd az fuk zibo mis vim
+                      Am
+Mu mis lak uz tu tabrikum
+•
+Am         Dm     
+Xu δusten bar duo senum
+           Am
+Ruxec bad ikditê menum
+Am       Dm
+Badê az diltê niẋfenum
+           Am     
+Xu nur uz turd  tasdiq kinum
+Am       Dm
+Badê az diltê niẋfenum
+           E                   
+Xu nur uz turd  tasdiq kinum
+•
+PRIPEV
+Am                 F    
+Arangaj purguno uz vim
+                   Dm
+Arangaj russêyo mis vim
+                       E
+Arcůnd az fuk zibo mis vim
+                      Am
+Mu mis lak uz tu tabrikum
+•
+Am       Dm
+Tu dargoyand xu kal xamum
+      Am
+Uzum ganda dê mis famum
+Am        Dm
+Dê famum lům baɣer šamum
+            Am
+Xu mehr yuxhkqatê tasdiqum
+Am        Dm
+Dê famum lom baɣer šamum
+             E
+Xu mêhr yuẋkqatê tasdiqum
+•
+PRIPEV
+Am                 F    
+Arangaj purguno uz vim
+                   Dm
+Arangaj ruseyo mis vim
+                       E
+Arcůnd az fuk zibo mis vim
+                      Am
+Mu mis lak uz tu tabrikum
+•
+Am        Dm
+Arcůnd tarif kinum uz sar
+            Am
+Pas lůvet čayê zoxht xaybar
+     Dm      
+Tut am Ali amat haydar
+          Am
+Tuyat az zoti Payɣambar
+      Dm      
+Tut am Ali amat haydar
+          E
+Tuyat az zoti Payɣambar
+•
+PRIPEV
+Am                 F    
+Arangaj purguno uz vim
+                   Dm
+Arangaj ruseyo mis vim
+                       E
+Arcůnd az fuk zibo mis vim
+                      Am
+Mu mis lak uz tu tabrikum    
+     `,
+    strumming: "D D U U D U"
+  },
+  {
+    title: "Ca chudat dil shitoe",
+    author: "Manuchehr Abdulnazarov",
+    audio: "audio/Ca_chudat_dil_shitoe.mp3",
+    chords: "Am G F E", 
+    lyrics: 
+    `
+Am
+Ca čudat dil šitoê
+G
+Niɣůɣ̌ xu bewafoê
+F                       E
+Ca toydat tu, az mu wam ẋab
+•
+Am
+Dilê xu armůn rinuẋt
+G
+Jismê az xu jůn rinuẋt
+F                       E
+Ca toydat tu, az mu wam ẋab
+•
+Am
+Torik murd sat zamůna
+G
+Nared az išq niẋůna
+F                     E
+Bowarum de, načud az tu
+•
+Am
+Badum arangat Majnun
+G
+Sutum wê jinow jayun
+F                       E
+Ca toydat tu, az mu wam ẋab
+•
+Am
+Arcůndum xu ayb ẋikud
+G
+Ičiz xatoyum načud
+F                          E
+Yu mu gumůn vud, tu xez yattow
+•
+Am
+Peẋctum, ku mu guno lu
+G
+Yo sof mu bewafo lu
+F                        E
+Ca toydat tu, az mu wam ẋab
+•
+Am
+Tu fikriê, čir čido
+G
+Tezdê az mu xez tido
+F                    E
+Nagayat vad, tu mu parwo
+•
+Am
+Mu kal mis mu bir vud
+G
+Dox mis mujat pê niwd δod
+F                        E
+Ca toydat tu, az mu wam ẋab
+•
+Am
+Ca čudat dil šitoê
+G
+Niɣůɣ̌ xu bewafoê
+F                       E
+Ca toydat tu, az mu wam ẋab
+•
+Am
+Dilê xu armůn rinuẋt
+G
+Jismê az xu jůn rinuẋt
+F                       E
+Ca toydat tu, az mu wam ẋab
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Vudum tar Nigor xez",
+    author: "Nomalum artist?!",
+    audio: "audio/Vudum_tar_Nigor_xez.mp3",
+    chords: "Em Am B7", 
+    lyrics: `
+Em
+Vudum tar Nigor xez
+Tar xu dilbardor xez
+                       Am   
+Lům ku va amro viyamê, mam ẋab
+                    Em
+Ya nala ɣal waxtê nist
+Maš čaq čaq ɣal dusga pist
+B7                          Em
+Ku va čid tar čid tiyamê, mam ẋab
+
+•
+Em
+Lůdum a ɣac dizga nist
+Dizgata čaq čaq napist
+                          Am
+Yam gumůnum xůmaϑ ristê, ajga
+                       Em
+At wamand wam kal wam birand
+Wam dil gumůnum az žirand
+B7                         Em
+Dizga bedil nist Pomirand, ajga
+
+•
+Em
+Ye nazar tar mayxůna
+Soqi nakiẋtta bůna
+                       Am
+De garδentê paymůna, xalqard                
+At uzum nur dewůna
+Em
+Nayê lůd mu jůnůna
+B7                    Em
+Xu tinê δod paymůna, xu alqaa
+
+•
+Em
+Vudum tar verodê čid
+Xu zot, xu awlodê čid
+                              Am
+Lům mam ẋabum rux čê čid, ikůdand                    
+Nala tut vo derizor yat
+Em 
+Nafam tut az čê kanor yat
+B7                       Em
+Mu kaxoy tu jat čê tid, azůdand
+
+•
+Em
+Lůdum o verod xatoyat 
+Pis kaxoyaϑ tu xatoyê
+                      Am
+Payê xu awlod qatorê, mam ẋab            
+At tamandta nog fuk soz sůd
+Em
+Tama išqta nog daroz sůd
+B7                       Em
+Dizga az mu tamard duoê, mam ẋab
+
+•
+Em
+Yê nazar tar mayxůna
+Soqi nakiẋtta bůna
+                      Am  
+Dê garδentê paymůna, xalqard
+At uzum nur dewůna 
+Em 
+Verodardum begůna
+B7                    Em
+Xu tinê δod paymůna, xu alqa    
+    
+  `,
+    strumming: "D D U U D U"
+  },
+  {
+    title: "Timta ar Pomir",
+    author: "Nekruz",
+    audio: "audio/Timta_ar_Pomir.mp3",
+    chords: "Em Am C B7", 
+    lyrics: `
+PRIPEV
+Em
+Timta ar Pomir, nasamta uz gir
+           Am                 C
+Uz biiẋt qatê barobar nakinum wê ϑir
+B7        E
+Timta ar Pomir
+•
+Em     Am            Em
+Čay ɣaribê, kiẋtta tarif
+       Am         Em 
+Tar ɣaribê, odam zaif
+        Am
+Nala az Pomir δarê
+              Em
+Mu δust mu jonandir
+B7        Em
+Timta ar Pomir
+•
+PRIPEV
+Em
+Timta ar Pomir, nasamta uz gir
+           Am                 C
+Uz biiẋt qatê barobar nakinum wê ϑir
+B7        E
+Timta ar Pomir
+•
+Em     Am           Em
+Ar palêga, yu mu bayoδ 
+         Am              Em
+Ar ẋabta mu, tar cem yu yoδd 
+      Am
+Savʓ  zimaδ az birat
+            Em
+Nilê osimůn az tir
+B7       Em
+Timta ar Pomir
+•
+PRIPEV
+Em
+Timta ar Pomir, nasamta uz gir
+           Am                 C
+Uz biiẋt qatê barobar nakinum wê ϑir
+B7        Em
+Timta ar Pomir
+•
+Em     Am          Em
+Aram kuen, ajab biland
+          Am        Em
+Mund mu qismat, kuenard
+        Am                      Em
+Kuen darunand mu zindagiyat mu taqdir
+B7       Em
+Timta ar Pomir
+•
+PRIPEV
+Em
+Timta ar Pomir, nasamta uz gir
+           Am                 C
+Uz biiẋt qatê barobar nakinum wê ϑir
+B7        E
+Timta ar Pomir  
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Shichum zhiwj",
+    author: "Pomir Band",
+    audio: "audio/Shichum_zhiwj.mp3",
+    chords: "Bm Em A Fmm ", 
+    lyrics: `
+2x
+Bm       
+Čisum, toqayaϑat toyd tu
+       Em
+Daδ tu xušruy cemen
+         A
+Čisum, nozkunůnat toyd tu
+        Fmm
+Daδ tu xušruy têr ɣunjen
+•
+2x
+Bm
+Šičum žiwj uz tu balad vim
+        Em
+Mot tu yakjoyaϑ viyam
+       A
+Šičum žiwj uz turd amro vim
+    Fmm
+Fukwaxtaϑ amro viyam
+•
+2x
+Bm 
+Ẋabindê niϑum pê  tu uz
+     Em
+Fikrêyum carangtaš yadê
+      A 
+Čiz gapenta uz turd δamat
+     Fmm
+Čiz jawobta murd δaδê
+•
+2x
+Bm
+Bowar kê mu dilat yodat
+      Em
+Cůndaϑta kinê “nay-nay”
+      A
+Čizat az mu tu toydat?
+       Fmm
+Nayta lůvê to ba kay?
     `,
     strumming: "D B U U B U"
   }
