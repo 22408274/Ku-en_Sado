@@ -1953,8 +1953,8 @@ Ca toydat tu, az mu wam ẋab
   },
   {
     title: "Vudum tar Nigor xez",
-    author: "Nomalum artist",
-    audio: "audio/Vudum_tar_Nigor_xez.mp3",
+    author: "Nomalum artist?!",
+    audio: "audio/Vudum_tar_nigor_xez.mp3",
     chords: "Em Am B7", 
     lyrics: `
 Em
