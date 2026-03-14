@@ -2149,6 +2149,450 @@ Cůndaϑta kinê “nay-nay”
 Nayta lůvê to ba kay?
     `,
     strumming: "D B U U B U"
+  },
+  {
+    title: "Bulbulen",
+    author: "Muqům",
+    audio: "audio/Bulbulen.mp3",
+    chords: "Am Dm E", 
+    lyrics: `
+PRIPEV
+Am        E
+Biyobūnva tim toqa
+             Am
+Nist murd ye amro
+                E
+Nist mu darsur dilshikasta
+            Am 
+Na dizga gumro 
+Am       E
+Na awase bogh at gulum
+            Am
+Nayum we parwo
+•
+Am            Dm
+Pūndardum uz wint bulbulen 
+             Am 
+Naqleen murd chud qissaen
+          E
+Dar borae wev oshiqen
+          Am
+Dar borae ishq
+•
+Am            Dm
+Oyta yothd az wev sinaen
+        Am   
+Az beamroye doth kinen
+            E            
+Wev cemenarden wev yuxhken 
+             Am
+Fuk az daste ishq
+•
+Am                 
+Nala “iwath xurd vire
+               Dm 
+Fuk ruzen wam qate ve”
+                   E
+Lūm “nay, fukath vienata
+             Am
+Fukath ye ruze”
+•
+Am
+Ye pūnd nixhūn xurd kine
+           Dm
+Zhozeyat, nafirape
+           E
+Oxirard bezor tu sawe
+           Am
+Az xu dilsuze
+•
+PRIPEV
+Am        E
+Biyobūnva tim toqa
+             Am
+Nist murd ye amro
+                E
+Nist mu darsur dilshikasta
+            Am 
+Na dizga gumro 
+Am       E
+Na awase bogh at gulum
+            Am
+Nayum we parwo
+•
+Am            Dm
+Pūndardum uz wint bulbulen 
+             Am 
+Naqleen murd chud qissaen
+          E
+Dar borae wev oshiqen
+          Am
+Dar borae ishq
+•
+Am            Dm
+Oyta yothd az wev sinaen
+        Am   
+Az beamroye doth kinen
+            E            
+Wev cemenarden wev yuxhken 
+             Am
+Fuk az daste ishq
+•    
+Am
+Az tir osimūn 
+              Dm
+Thedta ishq borūn
+           E 
+Yam mu umreta naghjist
+          Am
+Me borūn pibir
+•
+Am
+Dil doim mak tar sawdo
+           Dm
+Talabgor azoraho
+            E
+Fukath awas kinenata
+            Am
+Nasūd ichay gir
+•
+PRIPEV
+Am        E
+Biyobūnva tim toqa
+             Am
+Nist murd ye amro
+                E
+Nist mu darsur dilshikasta
+            Am 
+Na dizga gumro 
+Am       E
+Na awase bogh at gulum
+            Am
+Nayum we parwo
+•
+Am            Dm
+Pūndardum uz wint bulbulen 
+             Am 
+Naqleen murd chud qissaen
+          E
+Dar borae wev oshiqen
+          Am
+Dar borae ishq
+•
+Am            Dm
+Oyta yothd az wev sinaen
+        Am   
+Az beamroye doth kinen
+            E            
+Wev cemenarden wev yuxhken 
+             Am
+Fuk az daste ishq
+    `,
+    strumming: "D D U U D U"
+  },
+  {
+    title: "Tut ghal nawinch",
+    author: "Muqům",
+    audio: "audio/Tut_ghal_nawinch.mp3",
+    chords: "Am Dm E", 
+    lyrics: `
+Am    
+Uz me xu dil olat turd lūm
+       Dm  
+Tu mu shande
+              E
+At yothd ruz nawe, 
+               Am
+Lūve “kaye, tu gapen?”
+•
+Am
+Oshiqeta guyo tu xurd 
+       Dm
+Shuxe fame 
+          E
+At xabar sawe
+                       Am
+Id tu dil thothj ar mu ben
+•
+PRIPEV
+Am          Dm
+Tut ghal nawinch
+        E        Am
+Mam dunyonde zindage
+Am     Dm        E
+Bexabarat az ishqat 
+        Am
+Az bandage
+Am       Dm
+Tu noz kine
+         E         Am  
+Az xu surat at xu yoshe
+         Dm
+At mu xazūn
+        E      Am 
+Az tu baor zindade
+•
+Am
+Tut ika niol
+            Dm
+Ye baorat faqat wint
+         E
+Uzum ye xore biyabūne
+        Am 
+Pur az zhir
+•
+Am
+Zindaginde
+                     Dm
+Yoshe umeth winum az tu
+        E      
+At tu tana mu thathe
+            Am
+Lūve az pu pir
+•
+PRIPEV
+Am          Dm
+Tut ghal nawinch
+        E        Am
+Mam dunyonde zindage
+Am     Dm        E
+Bexabarat az ishqat 
+        Am
+Az bandage
+Am       Dm
+Tu noz kine
+         E         Am  
+Az xu surat at xu yoshe
+         Dm
+At mu xazūn
+        E      Am 
+Az tu baor zindade
+    `,
+    strumming: "D B U U B U"
+  },
+  {
+    title: "Arcond calove",
+    author: "Muqům",
+    audio: "audio/Arcond_calove.mp3",
+    chords: "Em D C Am B7", 
+    lyrics: `
+Em     D              Em    
+Arcůnd calůvê — lůvê, lo
+         D           Em
+Xubaϑ nafamum, uz čirum
+       D           Em
+Lůvê, guyo tiyê az mu
+          D            Em
+Nata lům ‘sa’, na tu girum
+           D              Em  C
+Awas mund yast, čiz xu girum
+            Am          B7
+Yam mu dil yoš, na uz pirum
+•
+Em          D          C     
+Na mu yuẋk tizd, nalům ičiz
+        D        Em
+Cakinê mis tu judoyê
+          D            Em
+Na diland ɣam, nayoδd alam
+        D       Em
+Cawinum tu bewafoyê
+        D       C    
+Catiyum uz, yo tiyê to
+      Am         C                B7
+Na id tu ayb, na mu guno, na xattoyê
+•
+Em     D              Em    
+Arcůnd calůvê — lůvê, lo
+         D           Em
+Xubaϑ nafamum, uz čirum
+       D           Em
+Lůvê, guyo tiyê az mu
+          D            Em
+Nata lům ‘sa’, na tu girum
+           D              Em  C
+Awas mund yast, čiz xu girum
+            Am          B7
+Yam mu dil yoš, na uz pirum
+    
+    `,
+    strumming: "D B U U B U"
+  },
+  {
+    title: "Sadoyum xhud az bulbulen",
+    author: "Firuzen",
+    audio: "audio/Sadoyum_xhud_az_bulbulen.mp3",
+    chords: "Em B7 Am", 
+    lyrics: `
+PRIPEV
+Em                   B7
+Sadoyum xhud az bulbulen
+                        Em
+Ar boghum wint xushruy gulen
+                      B7
+Dizga gulen ar Badaxshūn
+                        Em 
+Mashanden wath zebe Xughnūn
+• 
+                  Am
+Tuyat azed, uzum azūd
+                     Em
+Tuyat shoin, uzum chibūd
+                       Am
+Dusatham thar az yakdigar
+                Em    
+Awas kinam tar yakdigar
+•
+PRIPEV
+Em                   B7
+Sadoyum xhud az bulbulen
+                        Em
+Ar boghum wint xushruy gulen
+                      B7
+Dizga gulen ar Badaxshūn
+                        Em 
+Mashanden wath zebe Xughnūn
+•
+
+                        Am
+Tuyat ared — ar bogh darun
+                       Em
+Tuyat ared — gulen darun
+                       Am       
+Dusatham thar az yakdigar
+                     Em
+Awas kinam tar yakdigar
+•
+PRIPEV
+Em                   B7
+Sadoyum xhud az bulbulen
+                        Em
+Ar boghum wint xushruy gulen
+                      B7
+Dizga gulen ar Badaxshūn
+                        Em 
+Mashanden wath zebe Xughnūn
+•
+                  Am
+Tuyat azed, uzum azūd
+                     Em
+Tuyat shoin, uzum chibūd
+                       Am
+Dusatham thar az yakdigar
+                Em    
+Awas kinam tar yakdigar
+•
+PRIPEV
+Em                   B7
+Sadoyum xhud az bulbulen
+                        Em
+Ar boghum wint xushruy gulen
+                      B7
+Dizga gulen ar Badaxshūn
+                        Em 
+Mashanden wath zebe Xughnūn
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Zange Telefon",
+    author: "Macelram",
+    audio: "audio/Zange_telefon.mp3",
+    chords: "Am G F", 
+    lyrics: `
+Am                   
+Zangê telefůn, zoẋtê              
+Wam yax jawob δodê
+G
+Lůdum: falůnê odam
+Nala: ya namoztê
+F                    G
+Lůdum: tayor cakiẋt, ku lo
+               Am
+Yakbor az mu xabar zêzd
+•
+Am 
+Bad az čand daqiqa
+Toyden čand kalima
+G
+Čayat? Čindat? Azka?
+   F                    
+O Čayat? Čindat? Azka?
+G                       Am
+Čizat qiwj at chayga darkor?
+Am               
+Lůdum: dizga odam, balad, amsolam
+G
+Solen naghjiden, canawinčam az am
+F
+Nala: ůn, mu bayoδ ẋêyjam yê joy, amro
+G                         Am
+Badê nalê čandê ruz cudê raswo
+•
+Am
+Zangê telefůn, zoẋtê
+Bašand jawob δodê
+G                
+O, badê de vo šastand sar sut naqlê
+F                              
+Ya az mu wev solen at mu zindagêyat
+G                Am
+At uz faqat az ošiqê
+•
+Am
+Čůnd ruz lům uz žiwjgaẋ
+Ya niɣůɣ̌d mu dis xaẋ
+G
+Ay, nalůvd yê kalima, daẋt
+F                    
+Daẋt sic, naẋuδjê az mu naqlê
+G                   Am
+Naẋuδjê ijoga, nay, bidêdê 
+Am
+Cůnd ruz lům uz žiwjgaẋ
+Ya niɣůɣ̌d mu dis xaẋ
+G
+Ay, nalůvd yê kalima, daẋt
+F
+Sic tulo xayole, kiẋt ar yakê mu kalima
+G                              Am
+Kiẋt ya tar palê, kiẋt ya wê fikrê
+•
+Am
+Ida, čis, mu telefůn
+Reden/Nareden gapen
+G
+Red ẋab, sat ruz, vo sut vega
+            F
+Nawum qiwd, lůdum yê kalimayat
+G                 Am
+Nala: maqiw diga, mund yast iga
+•
+Am
+Xay, lakê ment, uz famum
+                         G
+Ya razent xu yuẋken tar palê
+Uzum načud xoiẋ xafagê
+          F
+Xay, lakê sůd, ment, best
+G             Am
+Fukaϑ id gandagê
+G            
+At famum, navirêyêta ijoga
+F            Am
+Navirêyêta, nay, tu az mu bidedê
+•
+Am
+Zangê telefůn, zoẋtê
+Xubaϑ jawob δodê
+G
+Peẋcum carang awolat, ɣal qarorê
+F
+Δid sawol at peẋst jawobat
+G              Am
+Lůvd: čiz mu qinê?
+    `,
+    strumming: "D U B U U D U"
   }
 ];
 
