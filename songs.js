@@ -2593,6 +2593,245 @@ G              Am
 Lůvd: čiz mu qinê?
     `,
     strumming: "D U B U U D U"
+  },
+  {
+    title: "Boomboks",
+    author: "Macelram",
+    audio: "audio/Boomboks.mp3",
+    chords: "Am G F Em", 
+    lyrics: `
+Aha, Gorilla voice, MacelRAM...
+x2
+Am        G
+Pas čidům sozê Boombokstê
+F             Em
+Iga kinorand nur tu ẋofcê
+Am       G       F      Em
+Pas čidům sozê Boombokstê
+•
+Am           G
+Mot tund vud ar ẋaband, wê musiqê
+F               Em
+Ruz az ruz tulu sut yu bidêdê
+Am            G
+Čiz ku lu, ku lu vud kamê
+F         Em
+Na uzat naga tufum mê
+Am            G
+Murd diviẋt tund awas tar iga
+F           Em
+Tut diviẋt mu xezand xafa
+Am         G           F           Em
+Aga nalůdat uzum ganda, bedarak ɣiδa
+•
+x2
+Am        G
+Pas čidům sozê Boombokstê
+F             Em
+Iga kinorand nur tu ẋofcê
+Am       G       F      Em
+Pas čidům sozê Boombokstê
+•
+x2
+Am             G
+Az tu ɣêvand nist arruz nomus
+F            Em
+Xu i gaptê nakinum uz
+Am          G  
+Čizum lůd, tar zibo yu red
+F                Em 
+Pê mu naboft visto umeδ 
+•
+x2
+Am        G
+Pas čidům sozê Boombokstê
+F             Em
+Iga kinorand nur tu ẋofcê
+Am       G       F      Em
+Pas čidům sozê Boombokstê 
+  `,
+    strumming: "D D U U D U"
+  },
+  {
+    title: "Xir dethd ar ku",
+    author: "Cover by Niyozmo & Karina",
+    audio: "audio/Xir_dethd_ar_ku.mp3",
+    chords: "Am F C G", 
+    lyrics: `
+Am           F     C      G
+Xir deδd ar ku at mêstta naẋtizd
+Am     F         C      G
+Mêstta ga mis pê mu naniϑt
+x2
+Am    F         C      G          Am
+Tu fikrêndêyum suδj ayrůn-ayrůnêzor
+     F         C        G
+Tu fikrêyê čud mast mu jůn
+•
+Am       F  C     G
+Kay-kaye,   tuyat kay?
+          Am  F  C   G
+Cawaxtta ko,     tu yadê?
+          Am  F   C         G
+Cawaxtta ko,     maš sawam yakjo?
+          Am  F   C       G
+Cawaxtta ga,     sawê mu amro?
+•
+Am   F           C      G
+Ruzê yakšambêndêyum tu wint
+Am    F          C      G
+Tuyat az δarand tar mu šint
+x2
+Am    F         C       G         Am
+Ikwam ruzandam sat yakjo-yakjoyêzor
+      F                C     G
+Tuyat toydat, mund šê nist amro
+•
+Am       F  C     G
+Kay-kaye,   tuyat kay?
+          Am  F  C   G
+Cawaxtta ko,     tu yadê?
+          Am  F   C         G
+Cawaxtta ko,     maš sawam yakjo?
+          Am  F   C       G
+Cawaxtta ga,     sawê mu amro?
+•
+Am  F   C    G
+Rafti   sitora,
+Am   F        C   G
+Dilamro kardi du pora
+x2
+Am     F           C    G     Am
+Shudam man oshiqi ruyi tu o Sitora
+       F       C     G
+Rafti yu maro mondi tu
+    `,
+    strumming: "D D U U U D D U"
+  },
+  {
+    title: "Nakine tu xoixh judoye",
+    author: "Muqům",
+    audio: "audio/Nakine_tu_xoixh_judoye.mp3",
+    chords: "Am Dm G C E", 
+    lyrics: `
+Am               Dm  
+Arcůnd lůve xoiẋ nakinê mu
+G                   C  
+Arcůnd az xu xezand ay kinê mu
+Am             Dm
+Amo tu diland išq nolao kiẋt
+G                C
+To cawaxtec tu dê joyê az mu
+•
+Dm                        Am
+Tu čiẋtowandaϑ ot, tu šintowandaϑ ot
+      E          Am
+Xoiẋ cakinê tu ošiqê
+   Dm                Am
+Tu cemênandaϑ ot, tu gāpenandaϑ ot
+      E          Am
+Xoiẋ cakinê tu ošiqê 
+•
+Am              Dm
+Ar wintowenand kinê mu xafā
+G                C
+Az tu xez têyum bezor at xastā
+Am               Dm
+Fāmum tu fāmê — faqat uz tu yor
+G               C
+At ačaϑ nakinê lůvdow zarā
+•
+Dm                        Am
+Tu čiẋtowandaϑ ot, tu šintowandaϑ ot
+      E          Am
+Xoiẋ cakinê tu ošiqê
+•
+Am                 Dm
+Lůvum uz turd δar joyta uz tim
+G                 C
+Az xu čidand, az tu xezand δar δim
+Am                 Dm
+Tund tu cemard yuẋkat, lůvê murd sāw
+G             C
+Ajga māyā, osoyaẋ az tu vim 
+•
+Dm                      Am
+Tu yuẋkenandaϑ ot, tu gāpenandaϑ ot
+      E          Am 
+Xoiẋ nakinê tu judoyê
+Dm                        Am
+Tu čiẋtowandaϑ ot, tu šintowandaϑ ot
+   E           Am
+Xoiẋ cakinê tu yakjoyê
+x3
+     E            Am
+Nakinê tu xoiẋ judoyê
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Sole naw ar Xaragh",
+    author: "Firuzen",
+    audio: "audio/Sole_naw_ar_Xaragh.mp3",
+    chords: "Em D C Bm Am B7", 
+    lyrics: `
+Em                    D
+Dê naɣ̌jiden garm ruzen
+                       C
+Žinijandta pur sen kuen
+            Bm             Em
+Famamta, mam sol noz sut tayor
+•                      D
+Pê iga sol fukand xušê
+                        C
+Garm fikrêen tar zindagê
+            Bm          Em
+Rinuẋtam arčiz cavud biyor
+•
+Am
+Dizga maδ solen naɣ̌jisen
+Em
+Dizga maδ ẋabenta rux sen
+Am           C         B7
+Dizga ẋab at ruzta sen bidal
+Am
+Dizga maδ solen naɣ̌jisen
+Em
+Dizga maδ ẋabenta rux sen
+Am           C    Am            Em
+Dizga yoδd mašard solê naw ar Xaraɣ
+Am          Em
+Solê naw ar Xaraɣ
+•  
+                  D
+Žinijta az osimůn δed
+                         C
+Fukaϑ joyen yu kiẋt safed
+           Bm             Em
+Fuk dilen pur az umeδ at roz 
+•                      D
+Mardumen az kin rinêsen
+                     D
+Ošiqenta ijoy jam sen 
+          Bm           Em        
+Ofizenta wevard lůven soz
+•
+Am
+Dizga maδ solen naɣ̌jisen
+Em
+Dizga maδ ẋabenta rux sen
+Am           C         B7
+Dizga ẋab at ruzta sen bidal
+Am
+Dizga maδ solen naɣ̌jisen
+Em
+Dizga maδ ẋabenta rux sen
+Am           C    Am          Em    D
+Dizga yoδd mašard solê naw ar Xaraɣ
+Am          Em
+Solê naw ar Xaraɣ
+    `,
+    strumming: "D B U U B U"
   }
 ];
 
@@ -2614,6 +2853,7 @@ if (songContent) {
   }
 
   function groupByArtist(songs) {
+
     return songs.reduce((acc, song) => {
       if (!acc[song.author]) acc[song.author] = [];
       acc[song.author].push(song);
@@ -2708,7 +2948,7 @@ if (songContent) {
 });
 function loadSong(song) {
   document.getElementById("song-title").textContent = song.title;
-  document.getElementById("song-author").textContent = "Shoir: " + song.author;
+  document.getElementById("song-author").textContent = "Sozanda: " + song.author;
 
   document.getElementById("song-lyrics").innerHTML =
     highlightChords(song.lyrics.trim());
