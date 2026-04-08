@@ -1350,7 +1350,7 @@ Ola la la la
           Am
 Ola la la la  
     `,
-    strumming: "D D U U U D D U"
+    strumming: "D U B D U"
   },
   {
     title: "Tut yê Layli",
