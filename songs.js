@@ -2598,57 +2598,57 @@ Lůvd: čiz mu qinê?
     title: "Boomboks",
     author: "Macelram",
     audio: "audio/Boomboks.mp3",
-    chords: "Am G F Em", 
+    chords: "Am G F E", 
     lyrics: `
 Aha, Gorilla voice, MacelRAM...
 x2
 Am        G
 Pas čidům sozê Boombokstê
-F             Em
+F               E
 Iga kinorand nur tu ẋofcê
-Am       G       F      Em
+Am        G        F     E
 Pas čidům sozê Boombokstê
 •
 Am           G
 Mot tund vud ar ẋaband, wê musiqê
-F               Em
+F                 E
 Ruz az ruz tulu sut yu bidêdê
 Am            G
 Čiz ku lu, ku lu vud kamê
-F         Em
+F          E
 Na uzat naga tufum mê
-Am            G
+Am               G
 Murd diviẋt tund awas tar iga
-F           Em
+F            E
 Tut diviẋt mu xezand xafa
-Am         G           F           Em
+Am          G             F         E
 Aga nalůdat uzum ganda, bedarak ɣiδa
 •
 x2
 Am        G
 Pas čidům sozê Boombokstê
-F             Em
+F               E
 Iga kinorand nur tu ẋofcê
-Am       G       F      Em
+Am        G        F     E
 Pas čidům sozê Boombokstê
 •
 x2
 Am             G
 Az tu ɣêvand nist arruz nomus
-F            Em
+F            E
 Xu i gaptê nakinum uz
 Am          G  
 Čizum lůd, tar zibo yu red
-F                Em 
+F                   E 
 Pê mu naboft visto umeδ 
 •
 x2
 Am        G
 Pas čidům sozê Boombokstê
-F             Em
+F               E
 Iga kinorand nur tu ẋofcê
-Am       G       F      Em
-Pas čidům sozê Boombokstê 
+Am        G        F     E
+Pas čidům sozê Boombokstê
   `,
     strumming: "D D U U D U"
   },
