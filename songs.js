@@ -225,7 +225,7 @@ Ku yasto... (4x)
   },
 
   {
-    title: "Borůnê serun awo",
+    title: "Borone serun awo",
     author: "Sashi Zaifi",
     audio: "audio/Borone_serun_awo.mp3",
     chords: "E Am Dm F ", 
@@ -269,7 +269,7 @@ Arčiz vid, lo ruyê rost
     strumming: "D U B D U"
   },
   {
-    title: "Tuyat důnd",
+    title: "Tuyat dond",
     author: "Zafar Band",
     audio: "audio/Tuyat_dond.mp3",
     chords: "Am Dm E F ", 
@@ -436,7 +436,7 @@ Načisum čāy az zibo mu ẋelaken
     strumming: "D D U U U D D U"       
 },
   {
-    title: "Telefůnen",
+    title: "Telefonen",
     author: "Baboš",
     audio: "audio/Telefonen.mp3",
     chords: "Am F G ", 
@@ -479,7 +479,7 @@ Canažiwjat, bezor xu mak `,
     strumming: "D U B D U"
   },
   {
-    title: "Čirdta čoren",
+    title: "Chirdta choren",
     author: "Sashi Zaifi",
     audio: "audio/Chirdta_choren.mp3",
     chords: "C G Am F", 
@@ -549,7 +549,7 @@ F              G           C  G
     strumming: "D D U U U D D U"
   },
   {
-    title: " Vo zimistůn, vo Xaraɣ",
+    title: " Vo zimiston, vo Xaraɣ",
     author: "Nekruz",
     audio: "audio/Vo_zimiston_vo_Kharagh.mp3",
     chords: "Am Dm E", 
@@ -628,7 +628,7 @@ Ganda ošiq, kalta saglag
     strumming: "D D U U D U"
   },
   {
-    title: "Oxhnoyê sar nazdik at sar δar",
+    title: "Oxhnoye sar nazdik at sar δar",
     author: "Sashi Zaifi",
     audio: "audio/Oxhnoe_sar_nazdik.mp3",
     chords: "Em D Am C F G", 
@@ -683,7 +683,7 @@ Yo Aliye `,
     strumming: "D U B D U"
   },
   {
-    title: "Yůmj sanam",
+    title: "Yomj sanam",
     author: "Anis Chorshanbiev",
     audio: "audio/Yomj_sanam.mp3",
     chords: "Am G F E", 
@@ -747,7 +747,7 @@ Lakin yakbor winum wam `,
     strumming: "D U B D U"
   },
   {
-    title: "Arůd nist zindagê",
+    title: "Arod nist zindage",
     author: "Alim Elnazarov",
     audio: "audio/Arod_nist_zindage.mp3",
     chords: "Am G F E", 
@@ -919,7 +919,7 @@ Awolā
     strumming: "D U U D U"
   },
   {
-    title: "Carāngum tu žiw",
+    title: "Carangum tu zhiwj",
     author: "Baboš",
     audio: "audio/Carangum_tu_zhiwj.mp3",
     chords: "Em D C ", 
@@ -973,7 +973,7 @@ O-o-o, lay-la-la-la-la-lay
     strumming: "D U B D U"
   },
   {
-    title: "Salūmam chud",
+    title: "Salomam chud",
     author: "Manzura Bakhronova",
     audio: "audio/Salomam_chud.mp3",
     chords: "Am F Dm E", 
@@ -1353,7 +1353,7 @@ Ola la la la
     strumming: "D U B D U"
   },
   {
-    title: "Tut yê Layli",
+    title: "Tut ye Layli",
     author: "Boris Jurabekov",
     audio: "audio/Tut_ye_Layli.mp3",
     chords: "Am Em F C G ", 
@@ -1417,7 +1417,7 @@ G
     strumming: "D D U U U D D U"
     },
   {
-    title: "Zindagê az naw casůd sar",
+    title: "Zindage az naw casod sar",
     author: "Liduš Abib",
     audio: "audio/Zindage_az_naw_ca_sod_sar.mp3",
     chords: "Am E Dm", 
@@ -1488,7 +1488,7 @@ Tůnecum tu naviruɣ̌jat
     strumming: "D U B D U "
   },
   {
-    title: "Jůnbicak",
+    title: "Jonbicak",
     author: "Boris Jurabekov",
     audio: "audio/Jonbicak.mp3",
     chords: "Am G F E", 
@@ -1650,7 +1650,7 @@ O-o-o, o Ruxšůna
     strumming: "D D U U D U"
   },
   {
-    title: "Nur az osmūn ar zamin yat",
+    title: "Nur az osmon ar zamin yat",
     author: "Munojot",
     audio: "audio/Nur_az_osmon_ar_zamin_yat.mp3",
     chords: "Bm Gm Em Fmm", 
@@ -2832,6 +2832,405 @@ Am          Em
 Solê naw ar Xaraɣ
     `,
     strumming: "D B U U B U"
+  },
+  {
+    title: "Alima",
+    author: "Cover by Pamir muzz",
+    audio: "audio/Alima.mp3",
+    chords: "Am G F E C", 
+    lyrics: `
+Am
+Pê osmůnum wint sitora
+          F
+At mu cem δod tutê xera
+        G
+Tut canaɣ̌jid mu palêva
+          E
+Tuydum tu damtir, osta-osta
+•
+    Am
+Arjoy caviyê, tu qatêyum
+        F
+Arjoy ca sawê, tu damtiyum
+        G
+Ammo šič tund, iga amro
+       E
+Čorboɣ ɣêvard yu, saylê δid to
+•
+x2
+Am                       G
+Mu dil tu čis, malu dis, o Alima
+                           Am
+Ɣayrê tu mund ičayga nist, o Alima
+   G       Am     
+O Alima o Alima
+•
+x2
+Am          C               G
+Bowar načud Alima, čorat tu čud
+                              Am
+At uzum mis az xizmat ar čid dê tuyd
+  G        Am
+O Alima o Alima 
+  G        Am
+O Alima o Alima    
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Tut mo Muhabbat",
+    author: "Macelram",
+    audio: "audio/Tut_mo_Muhabbat.mp3",
+    chords: "Am G", 
+    lyrics: `
+Am     
+To ko dê wênê kam
+To famê lapdê ɣam, ba joyê xušê
+      G
+To ko dê wênê kam
+To famê lapdê ɣam, ba joyê xušê
+•
+   Am
+Ku va bas kênam naqlê bahorat borůn
+Va šê bas kinam tiramoê xazůn
+     G
+Va šê bas δêdo dêruɣ gapen
+To dê lak mašam pêgoϑ ɣulům
+•
+       Am
+Ɣulůmê bardêruɣ êšq
+Ɣulůmê sof δar az rost gapen
+O-O-O-O
+G
+Fanden mot to ruzen
+Ẋaben fuk ba majburien
+•
+Am
+Tut mo muhabbat Layli
+Nurê ẋitêrʓat Layli
+G
+Tut mo muhabbat Layli
+Tut mo muhabbat, o Layli
+•
+Am
+Ostayaϑ mo daraw zid
+Ay dust tut mis mê daraw wint
+ G
+Maš dus xatoyam daraw tid
+Yam êšq maš xolê ɣamand δid  
+•
+Am
+Tut mo muhabbat Layli
+Nurê ẋitêrʓat Layli
+G
+Tut mo muhabbat Layli
+Tut mo muhabbat, o Layli 
+    `,
+    strumming: "D D U U U D D U"
+  },
+  {
+    title: "Tu xayoland",
+    author: "Qišqor",
+    audio: "audio/Tu_xayoland.mp3",
+    chords: "Em Am B7", 
+    lyrics: `
+Em
+Begůna mulk, uzum dis mast
+           Am
+Tanoyum ar mayxůna
+              B7
+Xabarum ẋuδj, čuɣ̌jat tu čor
+            Em
+Ay, bewafo dugůna
+•
+Em
+Yor at vêrod čůnd mu lůven
+                Am
+‘Ku bas kê may birêẋtow’
+                B7
+May cavirim, arjota sām
+
+Yata yoδd az mu pêro
+•
+Em
+Uz tu xayolandum, sanam
+      Am
+Uz tu xayoland
+                B7
+Uz tu xayoland, bewafo
+             Em
+Tut ɣal mu yoδand
+•
+Em
+Čizjatum tuyd az maš Pomer
+            Am
+Az tu palê δarêzor
+            
+Lům, qalingard pul kinum jam
+B7              Em
+Lak sawam maš ɣ̌in at čor 
+•
+Em
+Tut nist aybdor, uzum aybdor
+           Am
+Calakumčud tu toqa
+                B7
+Tut nur xu čor δustard kanor
+
+Mund nur mu joy mayxůna
+•
+Em
+Uz tu xayolandum, sanam
+      Am
+Uz tu xayoland
+                B7
+Uz tu xayoland, bewafo
+             Em
+Tut ɣal mu yoδand
+•
+Em
+Tabrik turd lům uz, ey, sanam
+            Am
+Tu sur at tu išq qatê
+             B7
+Baxtê nek at umrê daroz
+
+Dijat senum mam činê
+•
+Em
+Uz tu xayolandum, sanam
+      Am
+Uz tu xayoland
+                B7
+Uz tu xayoland, bewafo
+             Em
+Tut ɣal mu yoδand
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Tu fikrandum",
+    author: "Davlat Davlatov",
+    audio: "audio/Tu_fikrandum.mp3",
+    chords: "Em Bm C D", 
+    lyrics: `
+~PRIPEV~
+Em                       Bm            C
+Tu fikrandum, a, jůn, uz zoẋt qalam xu  
+        D              Em
+Xu bad cůndo ga waxtum δod qadam xu
+                    Bm            C
+Navarδodum yê arf uz turd virêdow
+        D         Em
+Načudum xolê dil, jamum čud ɣam xurd
+•
+Em                    C               D
+Tu wasfand ẋo, gumůn, šoir qalam gund
+                    Em
+Navarδedo ičay lůvd turd xu dil rund
+                    Bm           C
+Na rasůmo ga varδed tožd tu surat
+       D                Em
+Tuyat xhušruy, a, jůn, xušruyê fuk tund
+•
+~PRIPEV~
+Em                       Bm            C
+Tu fikrandum, a, jůn, uz zoẋt qalam xu  
+        D              Em
+Xu bad cůndo ga waxtum δod qadam xu
+                    Bm           C
+Navarδodum yê arf uz turd virêdow
+        D         Em
+Načudum xolê dil, jamum čud ɣam xurd
+•
+Em                C                D
+Yaboraϑ tu winum, jůn mastê noz sůd
+                   Em
+Cavid laza ga kut, žiwjum daroz sůd
+                     Bm          C
+Yaboraϑ uz xu gurm az tu capiʓum
+       D                Em
+Wê waxtand yastê bad mu čurtta soz sůd
+•
+~PRIPEV~
+Em                       Bm            C
+Tu fikrandum, a, jůn, uz zoẋt qalam xu  
+        D              Em
+Xu bad cůndo ga waxtum δod qadam xu
+                    Bm           C
+Navarδodum yê arf uz turd virêdow
+        D         Em
+Načudum xolê dil, jamum čud ɣam xurd
+•
+Em                    C              D
+Yaborê, waxt casůd, tar mu taraf čis
+                   Em
+Yaborê az qarib, yo az δarand čis
+                      Bm               C
+Yabor čis tar mu cem, bad čis mu dilδêd
+       D              Em
+Issat mu dil načud, vo asaraϑ čis
+•
+~PRIPEV~
+Em                       Bm            C
+Tu fikrandum, a, jůn, uz zoẋt qalam xu  
+        D              Em
+Xu bad cůndo ga waxtum δod qadam xu
+                    Bm           C
+Navarδodum yê arf uz turd virêdow
+        D         Em
+Načudum xolê dil, jamum čud ɣam xurd
+•
+Em                  C              D
+Mu cemenand tu čis, mu fikrêen ẋoy
+                        Em
+Mu dilδêdand tu čis, win tu mu dil joy
+                       Bm               C
+Xubaϑ fam, čis, carang balandmuqům tund
+      D                Em
+Mu sinayand, a, jůn, sar yakum nům tund
+•
+~PRIPEV~
+Em                       Bm            C
+Tu fikrandum, a, jůn, uz zoẋt qalam xu  
+        D              Em
+Xu bad cůndo ga waxtum δod qadam xu
+                    Bm           C
+Navarδodum yê arf uz turd virêdow
+        D         Em
+Načudum xolê dil, jamum čud ɣam xurd
+•
+Em                 C               D
+Nafamum čir kinum, tar čê ku doδum
+                Em  
+Ku cůndecgata uz tu damtê žozum?
+                        Bm           C
+Mu zorδ dis buq tujat, suδjum xayolê
+   D              Em
+Gumůnum, oqibat ẋo az tu boδum    
+    `,
+    strumming: "D D U U U D D U"
+  },
+  {
+    title: "We dal vid",
+    author: "Sashi Zaifi",
+    audio: "audio/We_dal_vid.mp3",
+    chords: "Am G F E D Dm", 
+    lyrics: `
+F                          E
+Ey, dust, pê mam δuruza dunyo
+ D             E            Am 
+Arčay xu cafamt šer, wê dal vid
+ F                      E
+At maš δu gadoyam nur dučor sat
+ D               E            Am
+Arčird canafort baɣêr, wê dal vid
+•
+Am   G            F          Am
+Murd lůven, guyo, tut vad azorand
+   G              F         Am
+Mastat vad, guyo, azor kanorand
+ Dm                      E
+At uz pê azorga ɣal niϑum xu
+D                E            Am               
+Arčird yast casut dêr, wê dal vid
+•
+F                          E
+Ey, dust, pê mam δuruza dunyo
+ D             E            Am 
+Arčay xu cafamt šer, wê dal vid
+•
+ G                F       Am
+Uzum mis xu dil fanāra dakčud
+   G             F        Am
+At yak-ba-yaken fukaϑ wê niẋpud
+    Dm                      E
+Bad důnjat tanā naδām tu pastê
+D              E            Am
+Arčay tu cačuɣ̌j zer, wê dal vid
+•
+F                          E
+Ey, dust, pê mam δuruza dunyo
+ D             E            Am 
+Arčay xu cafamt šer, wê dal vid
+•
+    G         F         Am
+Šič lůve xu yošejatta ϑāwum
+    G            F           Am
+Pas šič tu xu nāw at uz xu nāwum
+    Dm                    E
+Bād ikazmev maš xunovê yuẋken
+D              E              Am             
+Yast cavid ičayga ser, wê dal vid    
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Az ham judo",
+    author: "Muqům",
+    audio: "audio/Az_ham_judo.mp3",
+    chords: "Bm Em C Am", 
+    lyrics: `
+Bm     
+Mê yošindê, čujamê xo
+x2
+Em           Bm
+Az ham judo, δar az dunyo
+C           Am     Bm
+Be yakdigar toqaê tanho
+•
+x2
+Em                       Bm
+NaƔ̌jisam yakdigar xezva, begůna
+                        Em
+Be salůmat, sarê xamat, dil xafa
+C                             Bm
+Az maš diland ɣal nabeδj išq, niẋůna
+• 
+x2
+Bm
+O-O-O
+Em           Bm
+Az ham judo, δar az dunyo
+C           Am    Bm  
+Be yakdigar toqaê tanho
+•
+x2
+Em                        Bm
+Nawardam famt maš judoê, vud xato
+                          Em
+Ammo čiram waxtta natizd, tar zibo
+C                          Bm
+Xu kinoram yet maš čud, dar tamošo
+•
+x2
+Bm
+O-O-O
+Em           Bm
+Az ham judo, δar az dunyo
+C           Am    Bm  
+Be yakdigar toqaê tanho
+•
+x2
+Em                         Bm
+Umrê tizd ammo arang šam, cawizůd
+                             Em
+Yuẋken tien arang ẋab, borůn canůd
+C                  Bm
+Intizoriyê duoyam, vadat sůd
+•
+x2
+Bm
+O-O-O
+Em           Bm
+Az ham judo, δar az dunyo
+C           Am    Bm  
+Be yakdigar toqaê tanho
+•
+C           Am    Bm  
+Be yakdigar toqaê tanho  
+    `,
+    strumming: "D D U U D U"
   }
 ];
 
@@ -3052,7 +3451,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btn.textContent = songContent.classList.contains("fake-fullscreen")
       ? "❌ Naẋtido"
-      : "⛶ Polni ekran";
+      : "⛶ Polniy ekran";
   });
 });
 document.addEventListener("DOMContentLoaded", () => {
