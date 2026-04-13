@@ -2650,7 +2650,7 @@ Iga kinorand nur tu ẋofcê
 Am        G        F     E
 Pas čidům sozê Boombokstê
   `,
-    strumming: "D D U U D U"
+    strumming: "D D U U U D D U"
   },
   {
     title: "Xir dethd ar ku",
