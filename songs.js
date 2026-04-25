@@ -4,7 +4,7 @@ const songs = [
     title: "Zhiwjum",
     author: "Sashi Zaifi",
     audio: "audio/Zhiwjum.mp3",
-    chords: "Am E F C G Dm Fm",
+    chords: "Am E F C G Dm Fm B7",
     lyrics: ` 
 Am    
 Zhiwjum tu iktam, 
@@ -57,7 +57,7 @@ C
 Mis casam az ishq-ata xijul,
 G 
 Bad mu thir xubore barfalak, 
-Dm                    E
+B7                    E
 Ar taraf cayest - cayest yam shamol... 
 •
 PRIPEV
@@ -129,7 +129,7 @@ C
 Canaviriye baxt ijo,
 G 
 Bad ye xhab tu ragum at raswo, 
-Dm                   E  
+B7                   E  
 Az dive cadethd - cadethd dis fano. 
 •
 PRIPEV
@@ -155,7 +155,7 @@ D
 Wefand dusath ku ram yasto
 Am
 Cayest go nozanin jūnen
-C                     Em
+C                      D         Em
 Wefand xharm kame-kam yasto, ku yasto? 
 •
 Em
@@ -165,7 +165,7 @@ Ku kalla tham taram yakbor
 2x
 Am
 Mashand rangte taram niwdo
-C                     Em
+C                   D        Em
 Suzaxhat iku gham yasto, ku yasto? 
 •
 2x
@@ -176,7 +176,7 @@ Ku wam ghunj duse chugh suthjo
 2x
 Am
 Wam jigarand iku suzaxh
-C                     Em
+C                      D       Em
 Uz we cugh ku catham, yasto ku yasto? 
 •
 2x
@@ -187,7 +187,7 @@ Wend az toqage xhoj kadand
 2x
 Am
 We miyend bar mash dodenand
-C                     Em
+C                   D        Em
 Tiraxtayat ku pam yasto, ku yasto? 
 •
 2x
@@ -198,7 +198,7 @@ Ye sayle we qate/qatir thathum
 2x
 Am
 Ye gozak, yo ye zhir, yamte
-C                     Em 
+C                    D        Em 
 Go cathidta xu dam, yasto ku yasto? 
 •
 2x
@@ -209,15 +209,18 @@ Yu de yat, pexhc “tu farmūn kay?”
 2x
 Am
 Yane, e dust, tu noyandath
-C                     Em
+C                         D        Em
 Tut cayathch pis mu nam, yasto ku yasto? 
 •
 PRIPEV 
+Em
 Marg cemenand zhiwjum chisum
+D
 Wefand dusath ku ram yasto
-2x
+Am
 Cayest go nozanin jūnen
-Wefand xharm kame-kam yasto, ku yasto?
+C                      D         Em
+Wefand xharm kame-kam yasto, ku yasto? 
 
 Ku yasto... (4x)
     `,
@@ -3156,7 +3159,7 @@ Arčay xu cafamt šer, wê dal vid
 •
     G         F         Am
 Šič lůve xu yošejatta ϑāwum
-    G            F           Am
+    G            F           E
 Pas šič tu xu nāw at uz xu nāwum
     Dm                    E
 Bād ikazmev maš xunovê yuẋken
